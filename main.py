@@ -3,7 +3,7 @@ class Ventana(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("nueva ventana")
-        self.etiqueta1=QLabel("hola mundo",self)
+        self.etiqueta1=QLabel("Hola mundo",self)
 if __name__ == "__main__":
     app=QApplication([])
     ventana1=Ventana()
